@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    font-size: 50px;
+    background-color: rgb(11, 116, 116);
+    color: wheat;
+    height: 110px;
+    /* background-image: url('Images/logo.jpg');
+    background-repeat: no-repeat;
+    background-position: 900px 20px;
+    background-size: auto; */
+
+}
+
+.heading {
+    position: relative;
+    top: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 10px;
+
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(22, 21, 22);
+    width: 100vw;
+    border-radius: 9px;
+    position: relative;
+    top: 10px;
+}
+
+li {
+    display: inline;
+    float: left;
+
+
+}
+
+li a {
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin: 3px 1px;
+
+
+}
+
+li a:hover {
+    background-color: rgb(77, 168, 68);
+
+}
+
+.template-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.template-left {
+    position: relative;
+    margin-left: 5px;
+
+    width: 50%;
+    min-height: 450px;
+    background-image: url('quote-template.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    border: 2px double black;
+    margin-top: 30px;
+    border-radius: 3px;
+    margin-right: 3px;
+    /* opacity: 0.8; */
+
+}
+
+.template-right {
+    position: relative;
+
+
+    width: 48%;
+    min-height: 450px;
+    background-image: url('quote-template2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    border: 2px double black;
+    margin-top: 30px;
+    border-radius: 3px;
+    /* opacity: 0.8; */
+
+}
+
+.quote:hover {
+    background-color: black;
+    color: white
+}
+
+.quote {
+
+    position: relative;
+    margin: 50px;
+    padding: 10px;
+    margin-top: 80px;
+    font-size: 30px;
+    background-color: rgb(231, 220, 205);
+    opacity: 0.7;
+    min-height: 100px;
+    border-radius: 2px;
+    border: 1px solid black
+}
+
+p {
+    align-content: center;
+    font-size: 30px;
+    color: rgb(241, 241, 248);
+    background-color: black;
+}
+
+.technology {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 3px;
+    margin: 20px 100px;
+    background-color: rgb(224, 217, 201);
+    justify-content: space-evenly;
+    min-height: 300px;
+
+
+
+}
+
+.step1, .step2, .step3 {
+    height: 200px;
+    background-color: rgb(11, 116, 116);
+    margin: 10px 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 33vh;
+    padding: 10px;
+}
+
+.step1:hover, .step2:hover, .step3:hover {
+    background-color: rgba(233, 218, 14, 0.966);
+    height: 245px;
+    width: 17vw;
+    font-size: 20px;
+}
+
+h1 {
+    color: black;
+    background-color: rgb(255, 255, 245);
+    border-radius: 10px;
+
+
+}
+
+h2 {
+    /* font-size: 19px; */
+    line-height: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.usecase {
+    display: flex;
+    flex-direction: row;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 3px;
+    margin: 20px 100px;
+    background-color: rgb(224, 217, 201);
+    justify-content: space-evenly;
+
+}
+
+.temp {
+    height: 200px;
+    background-color: rgb(11, 116, 116);
+    margin: 10px 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 33vh;
+    padding: 10px;
+
+}
+
+.school {
+    background-image: url('school.jpg');
+
+}
+
+.police {
+    background-image: url('police.jpg');
+}
+
+.army {
+    background-image: url('army.jpg');
+    background-size: cover;
+}
+
+.quote1 {
+
+    position: relative;
+    margin: 50px;
+    margin-top: 0px;
+    padding: 10px;
+    /* margin-top:80px; */
+    font-size: 30px;
+    background-color: rgb(231, 220, 205);
+    opacity: 0.9;
+    min-height: 10px;
+    width: 110px;
+    border-radius: 2px;
+    border: 1px solid black;
+    border-radius: 6px;
+
+}
+
+.quote1:hover {
+    background-color: rgb(22, 22, 21);
+    color: white;
+
+
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    min-width: 100vw;
+    min-height: 200px;
+    justify-content: space-evenly;
+}
+
+.first {
+    margin-top: 30px
+}
+
+h3 {
+
+    font-size: 30px;
+}
+
+H1 {
+    text-align: center;
+  }
+
+.new {
+    border : 5px solid red;
+    border-collapse: collapse;
+    width: auto;
+    font-size: larger;
+    margin: 10%;
+    padding: 5px;
+    font-weight: bolder;
+    padding-left: 20px;
+    padding-right: 20px;
+  
+  }

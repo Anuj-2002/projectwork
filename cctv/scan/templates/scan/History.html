@@ -1,0 +1,34 @@
+<!DOCTYPE html> {% load static %}
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href={% static "css/style.css" %} media="screen">
+</head>
+
+<body>
+
+<H1> History </H1> <hr> <br> <br> <br> <br>
+  <div class="">
+
+
+  <table class="new">
+
+  {% for e in messages %}
+  <tr class="new">
+  <td class="new">{{ e.full_names }} </td>
+  <td class="new">{{ e.time }} </td>
+  <td class="new">{{ e.message }} </td>
+  </tr>
+  {% endfor %}
+  </table>
+</div>
+<style>{
+
+</style>
+</body>
+
+</html>
